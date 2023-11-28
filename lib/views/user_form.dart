@@ -7,7 +7,7 @@ class UserForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Formulário de Usuário'),
+        title: Text('Nova Anotação'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.save),
@@ -27,10 +27,10 @@ class UserForm extends StatelessWidget {
                   decoration: InputDecoration(labelText: 'Nome'),
                 ),
                 TextFormField(
-                  decoration: InputDecoration(labelText: 'Email'),
+                  decoration: InputDecoration(labelText: 'anotação 01'),
                 ),
                 TextFormField(
-                  decoration: InputDecoration(labelText: 'Avatar'),
+                  decoration: InputDecoration(labelText: 'anotação 02'),
                 ),
               ],
             )),
